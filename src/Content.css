@@ -1,0 +1,5 @@
+.general__content{
+    background:linear-gradient(purple,transparent);
+    background-color: rgba(250,0,0,0.5);
+    flex: 0.8;
+}

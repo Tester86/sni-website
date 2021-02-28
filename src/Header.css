@@ -1,0 +1,44 @@
+.header__container{
+    background-color: #002657;
+    flex: 0.2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo__container{
+    flex: 0.23;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10;
+}
+
+.image{
+    width: 80%;
+    height: 80%;
+}
+
+#logo{
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
+}
+
+.menu__options{
+    flex: 0.47;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu__option{
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu__option:hover{
+    font-size: 20px;
+}
+
+a { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;  font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px; }
